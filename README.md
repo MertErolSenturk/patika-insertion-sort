@@ -2,7 +2,7 @@
 ## Project 1.1
 [22,27,16,2,18,6] -> Insertion Sort
 
-Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
+Yukarı verilen dizinin sort türüne göre aşamalarını yaz.
 ```
 Sıralamak için en küçüğü ararız. 
 [2,27,16,22,18,6] 
@@ -10,13 +10,13 @@ Sıralamak için en küçüğü ararız.
 [2,6,16,22,18,27] 16 zaten 3. en küçük eleman olduğu için dokunmuyoruz.
 [2,6,16,18,22,27] 
 ```
-Big-O gösterimini yazınız.
+Big-O gösterimini yaz.
 ```
 n ile başlar, n-1,n-2,n-3 ve 1 ile son bulur. 
 Bu sayıların toplamı (n*(n+1))/2 olduğundan O(n²) ile ifade edilir.
 ```
 
-Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazınız
+Time Complexity: Dizi sıralandıktan sonra 18 sayısı aşağıdaki case'lerden hangisinin kapsamına girer? Yazı
 ```
 18 sayısı sıralamada ortada yer aldığından Average case kapsamına girer.
 ```
